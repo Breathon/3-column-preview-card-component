@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+}
+.card-container{
+    display: flex;
+    color:white;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto auto;
+}
+
+h1 {
+    font-family: 'Big Shoulders display', cursive;
+    font-size: 3rem;
+    font-weight: 700;;
+
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.7rem;
+}
+
+.card {
+    padding:30px 35px;
+    font-weight:300;
+}
+
+.card button {
+    border: none;
+    border-radius: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 3.5rem;
+    padding: 10px  30px;
+    outline:none;
+}
+
+.container-one {
+    background-color: hsl(31, 77%, 52%);
+    
+}
+
+.container-one button {
+    color: hsl(31, 77%, 52%);
+    
+}
+
+.container-one button:hover {
+    border:2px solid white;
+    background-color: hsl(31, 77%, 52%);
+    color: white;  
+}
+
+.container-two {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.container-two button {
+    color: hsl(184, 100%, 22%);  
+}
+
+.container-two button:hover {
+    border:2px solid white;
+    background-color: hsl(184, 100%, 22%);
+    color: white;  
+}
+
+.container-three {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.container-three button {
+    color: hsl(179, 100%, 13%); 
+}
+
+.container-three button:hover {
+    border:2px solid white;
+    background-color: hsl(179, 100%, 13%);
+    color: white;  
+}
+ 
+button:hover {
+    /* background-color: hsl(0, 0%, 95%); */
+    cursor:pointer;
+} 
